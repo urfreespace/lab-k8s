@@ -11,3 +11,10 @@ Keywords: Kubernetes, Docker, Container, Networking
 ## Overview
 
 This is lab project is a playground for you to play with Kubernetes.
+
+## Build dind image
+```shell
+
+docker buildx build -f Dockerfile -t dind:latest . --load
+
+```

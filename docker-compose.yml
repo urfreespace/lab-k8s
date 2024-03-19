@@ -5,7 +5,7 @@ services:
   dind:
     build:
       context: tools/dind/
-    image: morningspace/lab-dind
+    image: dind 
     privileged: true
 
   sleeper:
